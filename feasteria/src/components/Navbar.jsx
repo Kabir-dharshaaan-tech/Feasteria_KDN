@@ -47,7 +47,7 @@ function Navbar({ onExploreClick }) {
             <a href="#" className="text-black font-semibold hover:text-red-600">📢 Events</a>
             <a href="#" className="text-black font-semibold hover:text-red-600">💡 About</a>
             <a href="#" className="text-black font-semibold hover:text-red-600">📝 Feedback</a>
-            <Link to="/health" className="text-black font-semibold hover:text-red-600">🫀 Health</Link> {/* ✅ Updated */}
+            <Link to="/health" className="text-black font-semibold hover:text-red-600">🫀 Health</Link> 
           </div>
         </div>
 
@@ -82,5 +82,7 @@ function Navbar({ onExploreClick }) {
 }
 
 export default Navbar;
+
+
 
 
